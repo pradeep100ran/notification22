@@ -32,6 +32,6 @@ function generate_token(length){
 }
 
 
-    client.send(generate_token(32));
+    client.send(generate_token(64));
   });
-}, 1);
+}, 1000);
